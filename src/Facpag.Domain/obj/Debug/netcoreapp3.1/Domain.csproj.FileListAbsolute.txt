@@ -1,0 +1,8 @@
+/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/bin/Debug/netcoreapp3.1/Domain.dll
+/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/obj/Debug/netcoreapp3.1/Domain.dll
+/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/obj/Debug/netcoreapp3.1/Domain.pdb
