@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/home/eaguirre/.nuget/packages/": {}
+    "C:\\Users\\EYBER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/Domain.csproj",
+      "projectUniqueName": "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/Domain.csproj",
-      "packagesPath": "/home/eaguirre/.nuget/packages/",
-      "outputPath": "/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Domain/obj/",
+      "projectPath": "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\EYBER\\.nuget\\packages\\",
+      "outputPath": "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/eaguirre/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\EYBER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

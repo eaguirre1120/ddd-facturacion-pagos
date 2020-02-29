@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Data/Data.csproj": {}
+    "C:\\netcore.projects\\facpag\\src\\Facpag.Data\\Data.csproj": {}
   },
   "projects": {
-    "/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Data/Data.csproj": {
+    "C:\\netcore.projects\\facpag\\src\\Facpag.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Data/Data.csproj",
+        "projectUniqueName": "C:\\netcore.projects\\facpag\\src\\Facpag.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Data/Data.csproj",
-        "packagesPath": "/home/eaguirre/.nuget/packages/",
-        "outputPath": "/home/eaguirre/netcore.projects/arquisoft/src/Facpag.Data/obj/",
+        "projectPath": "C:\\netcore.projects\\facpag\\src\\Facpag.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\EYBER\\.nuget\\packages\\",
+        "outputPath": "C:\\netcore.projects\\facpag\\src\\Facpag.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/eaguirre/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\EYBER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,7 +24,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\Domain.csproj": {
+                "projectPath": "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,6 +43,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.0, )"
             },
@@ -68,7 +76,57 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\EYBER\\.nuget\\packages\\",
+        "outputPath": "C:\\netcore.projects\\facpag\\src\\Facpag.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EYBER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

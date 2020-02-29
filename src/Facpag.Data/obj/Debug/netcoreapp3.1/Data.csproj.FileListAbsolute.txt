@@ -8,3 +8,16 @@
 /home/eaguirre/netcore.projects/arquisoft/src/Facpag.Data/obj/Debug/netcoreapp3.1/Data.pdb
 /home/eaguirre/netcore.projects/arquisoft/src/Facpag.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.json
 /home/eaguirre/netcore.projects/arquisoft/src/Facpag.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.dev.json
+C:\netcore.projects\facpag\src\Facpag.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\netcore.projects\facpag\src\Facpag.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\netcore.projects\facpag\src\Facpag.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\netcore.projects\facpag\src\Facpag.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\netcore.projects\facpag\src\Facpag.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\netcore.projects\facpag\src\Facpag.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\netcore.projects\facpag\src\Facpag.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\netcore.projects\facpag\src\Facpag.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\netcore.projects\facpag\src\Facpag.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\netcore.projects\facpag\src\Facpag.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\netcore.projects\facpag\src\Facpag.Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\netcore.projects\facpag\src\Facpag.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\netcore.projects\facpag\src\Facpag.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete

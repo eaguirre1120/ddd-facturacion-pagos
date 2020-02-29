@@ -1,0 +1,7 @@
+C:\netcore.projects\facpag\src\Facpag.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\netcore.projects\facpag\src\Facpag.Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\netcore.projects\facpag\src\Facpag.Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.pdb
