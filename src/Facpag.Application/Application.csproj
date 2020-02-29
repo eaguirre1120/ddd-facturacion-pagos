@@ -1,5 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Facpag.Domain\Domain.csproj" />
+    <ProjectReference Include="..\Facpag.Service\Service.csproj" />
+    <ProjectReference Include="..\Facpag.CrossCutting\CrossCutting.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

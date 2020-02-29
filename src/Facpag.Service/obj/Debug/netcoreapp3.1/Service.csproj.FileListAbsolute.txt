@@ -5,3 +5,9 @@ C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.As
 C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
 C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\netcore.projects\facpag\src\Facpag.Service\bin\Debug\netcoreapp3.1\Data.dll
+C:\netcore.projects\facpag\src\Facpag.Service\bin\Debug\netcoreapp3.1\Domain.dll
+C:\netcore.projects\facpag\src\Facpag.Service\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\netcore.projects\facpag\src\Facpag.Service\bin\Debug\netcoreapp3.1\Data.pdb
+C:\netcore.projects\facpag\src\Facpag.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
