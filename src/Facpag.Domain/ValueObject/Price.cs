@@ -13,6 +13,9 @@ namespace Facpag.Domain.Entities
 
         public Price(double value)
         {
+            ValueNonNegative(value);
+            ValueNonNull(value);
+            Amount = value;
 
         }
 
