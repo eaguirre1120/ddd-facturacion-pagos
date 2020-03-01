@@ -1,7 +1,7 @@
 # Facturacion y pagos (DDD)
 Proyecto de Facturación y pagos usando Domain Drive Design para el módulo de Arquitectura de Software.
 
-Herramietas Utilizadas
+Herramientas Utilizadas
 1. Windos/Linux
 2. netcore v3.1 (CLI)
 2. Mysql
