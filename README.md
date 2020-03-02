@@ -8,7 +8,8 @@ Herramientas Utilizadas
 3. Entity Framework Core v3.1.0
 
 Prerequisitos:
-- Instalar de manera global Entity Framework Core v3.1.0
+- Instalar SDK .NET Core 3.1
+- Instalar de manera global Entity Framework Core v3.1.0 desde la consola
     - > dotnet tool install --global dotnet-ef --version 3.1.0
 
 Pasos para ejecutar la aplicación
