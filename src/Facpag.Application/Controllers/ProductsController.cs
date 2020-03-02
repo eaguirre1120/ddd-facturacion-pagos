@@ -1,8 +1,11 @@
 using System;
+using System.IO;
 using System.Net;
 using System.Threading.Tasks;
+using Facpag.Application.Models;
 using Facpag.Domain.Entities;
 using Facpag.Domain.Interfaces.Services.Product;
+using Facpag.Domain.ValueObject;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Facpag.Application.Controllers
@@ -55,7 +58,7 @@ namespace Facpag.Application.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] ProductEntity product)
+        public async Task<ActionResult> Post([FromBody] ResponseProduct response)
         {
             if (!ModelState.IsValid)
             {
@@ -64,6 +67,10 @@ namespace Facpag.Application.Controllers
 
             try
             {
+                ProductName productName = new ProductName(response.name);
+                Price price = new Price(response.price);
+                Stock stock = new Stock(response.stock);
+                ProductEntity product = new ProductEntity(productName, price, stock);
 
                 var result = await _service.Post(product);
                 if (result != null)
@@ -82,7 +89,7 @@ namespace Facpag.Application.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] ProductEntity product)
+        public async Task<ActionResult> Put([FromBody] ResponseProduct response)
         {
             if (!ModelState.IsValid)
             {
@@ -91,6 +98,15 @@ namespace Facpag.Application.Controllers
 
             try
             {
+                ProductEntity product = await _service.Get(response.id);
+                if (product == null)
+                {
+                    return BadRequest();
+                }
+
+                product.SetName(new ProductName(response.name));
+                product.SetPrice(new Price(response.price));
+                product.SetStock(new Stock(response.stock));
 
                 var result = await _service.Put(product);
                 if (result == null)
