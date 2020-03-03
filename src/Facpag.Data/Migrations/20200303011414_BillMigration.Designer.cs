@@ -3,14 +3,16 @@ using System;
 using Facpag.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Data.Migrations
 {
     [DbContext(typeof(MyContext))]
-    partial class MyContextModelSnapshot : ModelSnapshot
+    [Migration("20200303011414_BillMigration")]
+    partial class BillMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,35 +50,6 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Bill");
-                });
-
-            modelBuilder.Entity("Facpag.Domain.Entities.DetailEntity", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
-
-                    b.Property<Guid>("BillId")
-                        .HasColumnName("Billid")
-                        .HasColumnType("char(36)");
-
-                    b.Property<DateTime?>("CreateAt")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<Guid>("ProductId")
-                        .HasColumnName("ProductId")
-                        .HasColumnType("char(36)");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnName("Quantity")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("UpdateAt")
-                        .HasColumnType("datetime(6)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Detail");
                 });
 
             modelBuilder.Entity("Facpag.Domain.Entities.ProductEntity", b =>
@@ -142,44 +115,6 @@ namespace Data.Migrations
 
                             b1.WithOwner()
                                 .HasForeignKey("BillEntityId");
-                        });
-                });
-
-            modelBuilder.Entity("Facpag.Domain.Entities.DetailEntity", b =>
-                {
-                    b.OwnsOne("Facpag.Domain.Entities.Price", "Price", b1 =>
-                        {
-                            b1.Property<Guid>("DetailEntityId")
-                                .HasColumnType("char(36)");
-
-                            b1.Property<double>("Amount")
-                                .HasColumnName("Price")
-                                .HasColumnType("double");
-
-                            b1.HasKey("DetailEntityId");
-
-                            b1.ToTable("Detail");
-
-                            b1.WithOwner()
-                                .HasForeignKey("DetailEntityId");
-                        });
-
-                    b.OwnsOne("Facpag.Domain.ValueObject.ProductName", "ProductName", b1 =>
-                        {
-                            b1.Property<Guid>("DetailEntityId")
-                                .HasColumnType("char(36)");
-
-                            b1.Property<string>("Value")
-                                .IsRequired()
-                                .HasColumnName("ProductName")
-                                .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                            b1.HasKey("DetailEntityId");
-
-                            b1.ToTable("Detail");
-
-                            b1.WithOwner()
-                                .HasForeignKey("DetailEntityId");
                         });
                 });
 
