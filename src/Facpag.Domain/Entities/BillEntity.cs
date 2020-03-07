@@ -18,7 +18,7 @@ namespace Facpag.Domain.Entities
         {
             Client = client;
             Telephone = telephone;
-            Email = Email;
+            Email = email;
             PaymentType = paymentType;
         }
         public void SetClient(string client)

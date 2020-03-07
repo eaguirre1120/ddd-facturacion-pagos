@@ -74,3 +74,5 @@ C:\netcore.projects\facpag\src\Facpag.Application\bin\Debug\netcoreapp3.1\Data.p
 C:\netcore.projects\facpag\src\Facpag.Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 C:\netcore.projects\facpag\src\Facpag.Application\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\netcore.projects\facpag\src\Facpag.Application\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\netcore.projects\facpag\src\Facpag.Application\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\netcore.projects\facpag\src\Facpag.Application\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
