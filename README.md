@@ -1,16 +1,19 @@
-# Facturacion y pagos (DDD)
+# Facturacion y pagos (DDD y CQRS)
 Proyecto de Facturación y pagos usando Domain Drive Design para el módulo de Arquitectura de Software.
 
 Herramientas Utilizadas
-1. Windos/Linux
+1. Windows/Linux
 2. netcore v3.1 (CLI)
 2. Mysql
 3. Entity Framework Core v3.1.0
 
 Prerequisitos:
-- Instalar SDK .NET Core 3.1
-- Instalar de manera global Entity Framework Core v3.1.0 desde la consola
+- Instalar SDK .NET Core 3.1 (Windows)
+- Instalar de manera global Entity Framework Core v3.1.0 desde la consola:
     - > dotnet tool install --global dotnet-ef --version 3.1.0
+- Instalar en MediatR desde la consola:
+    - > dotnet add package MediatR --version 7.0.0
+    - > dotnet add package MediatR.Extensions.Microsoft.DependencyInjection --version 7.0.0
 
 Pasos para ejecutar la aplicación
 1.  Actualizar dependencias
@@ -33,7 +36,7 @@ Pasos para ejecutar la aplicación
     - 2.3 Ir hasta el directorio src/Facpag.Application y ejecutar desde la consola:
         - > dotnet run
 
-5. Ejemplos para consultar la API REST desde Postman
+5. Ejemplos para consultar la API REST desde Postman:
 
     - 5.1 GET:
         - URL: http://localhost:5000/api/products
@@ -54,4 +57,19 @@ Pasos para ejecutar la aplicación
             }
     - 5.4 DELETE:
         - URL: http://localhost:5000/api/Products/{id}
+
+6. Ejemplos para consultar la REST de FACTURA (CQRS) desde Postman:
     
+    - 6.1 GET:
+    - 6.2 POST:
+        - URL: http://localhost:5000/api/bills
+        - BODY: {
+                    "client" : "John Doe",
+                    "telephone" : "77873056",
+                    "email": "test@test.com",
+                    "paymentType": "Contado",
+                    "detail" : [
+                        { "productId" : "2165f599-6cf3-48d4-b060-2f86a13b3726", "productName" : "Tablet Samsung", "quantity": 2, "price": 245},
+                        { "productId" : "fe228f91-50d4-4fa6-b5b8-a6b46e7a80ea", "productName" : "Producto Actualizado", "quantity": 3, "price": 20.5}
+                    ]
+                }
