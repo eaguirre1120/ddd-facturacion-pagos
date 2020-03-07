@@ -60,9 +60,9 @@ Pasos para ejecutar la aplicación
 
 6. Ejemplos para consultar la REST de FACTURA (CQRS) desde Postman:
     
-    - 6.1 GET:
+    - 6.1 GET: http://localhost:5000/api/bills (Query)
     - 6.2 POST:
-        - URL: http://localhost:5000/api/bills
+        - URL: http://localhost:5000/api/bills (Commmand)
         - BODY: {
                     "client" : "John Doe",
                     "telephone" : "77873056",
